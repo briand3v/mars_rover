@@ -2,8 +2,44 @@
 <head>
 	<title>Mars Rover Kata!</title>
 	<script type="text/javascript" src="rover.js"></script>
+
+<style type="text/css">
+.content{
+	display: flex;
+	margin-top: 10px;
+
+
+}
+form{
+	display: flex;
+	font-size: 1em;
+	color: brown;
+	font-weight: bold;
+	margin: 1em;
+
+
+}
+#submit{
+	margin-top: 1em;
+	margin-bottom: 1em;
+	margin-left: 5px;
+	margin-right: 5px;
+	border: 2px solid green;
+	border-radius: 5px;
+	color: black;
+	font-size: 1em;
+}
+.submit1{
+	align-items: center;
+}
+</style>
 </head>
 <body>
-
+	<div class="content">
+	<form action="">
+		Coordinates: <input  id="submit1" type="text"> </input>
+	</form>
+		<input id = "submit" type="submit" onclick="submitCordinates()" value="send">
+	</div>
 </body>
 </html>
